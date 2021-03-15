@@ -1,0 +1,60 @@
+///// TO DO:
+
+
+- El markAsRead pone en visto el primer mensaje, y el resto lo pone una vez vuelves a iniciar sesion.
+
+- ERROR EN EL SHOW BIOGRAFÍA CUANDO ACEPTAS A ALGUIEN, NULLPOINTEREXCEPTION, NO SE ACTUALIZA EL TAMAÑO DE LA 
+LISTA DE AMIGOS A LA VEZ QUE EL INDICE, ES DECIR, SI HAY 2 AMIGOS Y ACEPTAS A UNO MAS, ESE QUE ACEPTAS Y HAS SELECCIONADO 
+DARÁ NULLPOINTEREXCEPTION PORQUE NO SE MUESTRA EN LA LISTA
+
+
+
+[Terminan en "???" las mierdas que consultarnos]
+- Refactorizar en GUIProfileView los métodos pensados anteriormente para texto???
+- Botón Reload profile 
+
+(Deberían mostrarse cuando hay una solicitud seleccionada)
+- Comprobar que no puedes enviarte mensajes a ti mismo desde la biografía de un amigo
+- Verificar que no se puedan crear publicaciones vacías //si se puede
+- Verificar que no se creen perfiles de usuario "nulo"
+- Biografía y mensaje privado no funcionan todavía //FALTA LEER MENSAJE
+- Enter para iniciar sesion / registro
+- (quitar el reloadprofile en caso de cancel)???
+
+
+FASE 4
+- Meter parte superior en un panel para centrar todo al reescalar
+- Reescalado
+- Abrir biografías con doble click
+
+
+//// HECHO RECIENTEMENTE:
+
+- SE MUESTRAN LOS STATUS DE LA PERSONA QUE ACEPTA LA SOLICITUD / CONSEGUIDO ME CAGO EN TODO
+- TE PUEDES ENVIAR UNA SOLICITUD A TI MISMO
+- COMENTARIOS NO SE METEN
+- ELIMINAR MENSAJE BOTON
+- DAR LIKE A TI MISMO
+- No sale el mensaje cuando le das like a nada
+- marcar los MDs como leídos
+- Autor de comentario ERRONEO
+- Likes a otros perfiles.
+- No puedes añadir una publicacion en el perfil de otro
+- Arreglo a mostrar oldPosts 
+- Excepcion al Aceptar/Rechazar solicitud sin seleccionar 
+- Cargar correctamente los apartados de perfiles que no son el de sesión
+- Estando en el perfil de otro (que no se pueda usar pestaña de mensajes privados y demás partes que 
+no tendrían que verse) 
+- Añadir función al botón de "Ver Biografía"
+- Implementado el Split de los cojones en el apartado de amigos
+- Arreglado método sendFriendshipRequest
+- Implementado newMessage en ambos botones de MD
+- FlowLayouts Superior, Inferior y OpcionesAmigos
+- Algunas correeciones de idioma en interfaz y de como se muestra el texto
+- Implementado cerrar sesión
+- Todos los scrolls ya no son editables
+- Nombre de variables a los paneles
+- Mostrar perfil y estado
+- Botón de cambio de estado implementado
+- Método changeStatus refactorizado (ya no pide parámetros, ya que la condición para poder
+cambiar el estado ya la verificaremos para mostrar el botón)
